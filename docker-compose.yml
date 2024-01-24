@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_DB: database
+      POSTGRES_USER: Fenysk
+      POSTGRES_PASSWORD: HAjx9MG833ny5c

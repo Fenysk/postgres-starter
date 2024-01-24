@@ -1,0 +1,5 @@
+{
+	"scripts": {
+		"db:create": "docker-compose up --build -d"
+	}
+}
